@@ -1,3 +1,39 @@
 html {
     font-size: 15px;
 }
+.content{
+    background: url(https://via.placeholder.com/940x400);
+    background-size: cover;
+    padding-top: 25%;
+    position: relative;
+    z-index:-1;
+}
+.transbox{
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    position: absolute;
+    top: 80px;
+    left: 38%;
+    width: 300px;
+    height: 150px;
+    margin: auto;
+}
+.navbar-nav{
+    background-color: blue;
+    align-items: center;
+    color :white!important;
+}
+.navbar-nav>li>a{
+    color:white!important;
+}
+
+.card{
+    margin:200px;
+    margin-top: -40px;
+
+}
+.card_under{
+    z-index: -2;
+}
