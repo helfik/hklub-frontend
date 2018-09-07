@@ -1,32 +1,20 @@
 html {
     font-size: 15px;
 }
-.content{
-    background: url(https://via.placeholder.com/940x400);
-    background-size: cover;
-    padding-top: 25%;
-    position: relative;
-    z-index:-1;
-}
-.transbox{
+.sitename{
     text-align: center;
-    background-color: #ffffff;
-    border: 1px solid black;
-    opacity: 0.6;
-    position: absolute;
-    top: 80px;
-    left: 38%;
-    width: 300px;
-    height: 150px;
-    margin: auto;
+    margin-top: 40px;
+}
+.container-fluid{
+    padding: 0;
 }
 .content{
-    background: "solidarity.jpg";
+    background:url(https://static1.squarespace.com/static/579e4df5b8a79bb7da5a70e1/t/57c7a05559cc68833fbee7f6/1472700675272/14138028_10207349694396373_5736626457680045716_o.jpg);
     background-size:cover;
-    padding:0;
     padding-top: 25%;
     position: relative;
     z-index:-1;
+    background-position: fixed;
 }
 .transbox{
     text-align: center;
@@ -34,15 +22,27 @@ html {
     border: 1px solid black;
     opacity: 0.6;
     position: absolute;
-    top: 80px;
-    left: 38%;
-    width: 300px;
+    top: 50px;
+    left: 30%;
     height: 150px;
-    margin: auto;
+    width:600px;
 }
 
 .card{
+    position: absolute;
     margin:200px;
-    margin-top: -40px;
+    margin-top: -60px;
+    margin-left:300px;
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: white;
+    outline-width: 20px;
+
+
+
+}
+.carousel{
+    position: relative;
+    margin-top: 600px;
 
 }
