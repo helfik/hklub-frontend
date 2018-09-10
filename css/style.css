@@ -1,12 +1,17 @@
 html {
     font-size: 15px;
 }
+body{
+    font-family:
+    padding:0;
+}
 .sitename{
     text-align: center;
     margin-top: 40px;
 }
 .container-fluid{
     padding: 0;
+
 }
 .content{
     background:url(https://static1.squarespace.com/static/579e4df5b8a79bb7da5a70e1/t/57c7a05559cc68833fbee7f6/1472700675272/14138028_10207349694396373_5736626457680045716_o.jpg);
@@ -14,7 +19,7 @@ html {
     padding-top: 25%;
     position: relative;
     z-index:-1;
-    background-position: fixed;
+    background-attachment: fixed;
 }
 .transbox{
     text-align: center;
@@ -29,20 +34,46 @@ html {
 }
 
 .card{
-    position: absolute;
-    margin:200px;
+    position absolute;
+    margin: auto;
     margin-top: -60px;
-    margin-left:300px;
-    border: 1px solid black;
     outline-style: solid;
     outline-color: white;
     outline-width: 20px;
-
-
-
+    background-size: cover;
+}
+.card-body{
+    border: 1px solid black
 }
 .carousel{
     position: relative;
     margin-top: 600px;
 
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.centered h3{
+    color: white;
+}
+button.kecid{
+    position: centered;
+    margin-top: 70px;
+}
+button h4{
+    margin: 10px;
+}
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: lightblue;
+}
+.footer-copyright h4{
+    position: absolute;
+    color: white;
+    margin-top: 40px;
 }
