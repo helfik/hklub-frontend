@@ -2,8 +2,8 @@ html {
     font-size: 15px;
 }
 body{
-    /*font-family: ;*/
-    padding: 0;
+    font-family:
+    padding:0;
 }
 .sitename{
     text-align: center;
@@ -16,6 +16,7 @@ body{
 .content{
     background:url(https://static1.squarespace.com/static/579e4df5b8a79bb7da5a70e1/t/57c7a05559cc68833fbee7f6/1472700675272/14138028_10207349694396373_5736626457680045716_o.jpg);
     background-size:cover;
+    min-height: 480px;
     padding-top: 25%;
     position: relative;
     z-index:-1;
@@ -25,30 +26,74 @@ body{
     text-align: center;
     background-color: #ffffff;
     border: 1px solid black;
-    opacity: 0.6;
+    opacity: 0.4;
     position: absolute;
+    margin:auto;
     top: 50px;
     left: 30%;
-    height: 150px;
-    width:600px;
+    height: 250px;
+    width: 600px;
 }
 
 .card{
-    position: absolute;
+    position: relative;
     margin: auto;
     margin-top: -60px;
+    border: 1px solid darkgrey;
     outline-style: solid;
     outline-color: white;
     outline-width: 20px;
     background-size: cover;
 }
-.card-body{
-    border: 1px solid black
+.img-full{
+    min-width: 100%;
+    height: 400px;
 }
+.card-body{
+    margin:40px;
+
+}
+div.card-body:hover h2{color: green;
+}
+a.admin:visited{
+    color:black;
+}
+a.admin:hover{
+    text-decoration: none;
+    color: green;
+}
+
+a.comment:visited{
+    color: black;
+}
+a.comment:hover{
+    color: green;
+    text-decoration:none;
+}
+a.heading{color: black;
+}
+a.heading:hover{
+    text-decoration: none;
+    color: green;
+}
+hr{
+    border: 1px solid darkgrey;
+}
+a.heart{
+    float: right;
+}
+
 .carousel{
     position: relative;
-    margin-top: 600px;
 
+
+}
+.world{
+    position: relative;
+}
+.img-circle{
+    height: 300px;
+    min-width: 300px;
 }
 .centered {
     position: absolute;
@@ -60,14 +105,18 @@ body{
 .centered h3{
     color: white;
 }
-
-/* never named variables and classes using azery words and you see there is a read underline which show u that it is incorrect */
-button.kecid{
+.center-block{
     position: relative;
     margin-top: 70px;
 }
 button h4{
     margin: 10px;
+}
+.btn-default{
+    position: relative;
+    padding: 10px;
+    top: 40px;
+    bottom: 20px;
 }
 footer{
     height: 200px;
