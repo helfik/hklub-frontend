@@ -138,7 +138,7 @@ h1.carousel_header{
 }
 h1.world_heading{
     font-size: 50px;
-    padding:30px;
+    padding:40px;
     margin-left: 15%;
 }
 .img-circle{
@@ -159,6 +159,7 @@ h1.world_heading{
     position: relative;
     margin: auto;
     top: 50px;
+    margin-top: 40px;
 }
 .world button{
     position: relative;
@@ -166,16 +167,35 @@ h1.world_heading{
     padding: 5px 15px;
     border: 1px solid black;
 }
-
-.page-footer{
+footer{
     position: relative;
-    top: 150px;
-    margin: 0;
-    width: 100%;
-    background-color: lightblue;
+    margin-top: 100px;
+    background-color:#668cff;
+    min-height: 300px;
 }
-.footer-copyright h4{
-    position: absolute;
+hr.footer{
+    margin-top: 80px;
+}
+form{
+    position: relative;
+    top: 60px;
+    margin-left:40%;
+}
+button.submit{
+    background-color: black;
     color: white;
-    margin-top: 40px;
+}
+ul.address-top-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.address-top-menu a:visited{
+    color: black;
+
+}
+.side_part{
+    position: relative;
+    margin-left:50%;
+    margin-top: -15px;
 }
