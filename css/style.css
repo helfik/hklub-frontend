@@ -15,7 +15,7 @@ html,body {
 
 }
 .content{
-    background:url(https://static1.squarespace.com/static/579e4df5b8a79bb7da5a70e1/t/57c7a05559cc68833fbee7f6/1472700675272/14138028_10207349694396373_5736626457680045716_o.jpg);
+    background: url(https://static1.squarespace.com/static/579e4df5b8a79bb7da5a70e1/t/57c7a05559cc68833fbee7f6/1472700675272/14138028_10207349694396373_5736626457680045716_o.jpg);
     background-size:cover;
     min-height: 480px;
     padding-top: 25%;
@@ -234,8 +234,8 @@ div.cards{
     left: 1px;
     background-color:rgba(0, 0, 0, 0.5);
     color: white;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 0;
+    padding-right: 0;
 
 }
 .admin_container_2{
@@ -268,9 +268,32 @@ span.test{
     color: green;
     text-decoration: none;
 }
-.blog_footer{
+.first_container{
     position: relative;
-    margin-top: 20px;
-    padding:0;
-    margin-left: 0;
+    margin: 0 auto;
+    background-color: white;
+}
+.first_container_header{
+    position: relative;
+    background-color: white;
+    margin: auto;
+    width: 700px;
+    top: 100px;
+
+}
+.post{
+    position: relative;
+    padding-top: 20px;
+}
+.linearpost{
+    position: relative;
+    border-left: 5px solid green;
+    padding-left: 10px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.post2{
+    position: relative;
+    padding-top: 30px;
 }
