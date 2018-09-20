@@ -1,10 +1,22 @@
 html {
     font-size: 15px;
 }
-
+.homepage_top{
+    background-color: mediumblue;
+}
+.homepage_top a:visited{
+    color:white;
+}
+.homepage_top a:hover{
+    color:grey;
+}
+.homepage_top a.active{
+    color:grey;
+}
 .sitename{
     text-align: center;
-    margin-top: 40px;
+    margin-top: 80px;
+    font-size: 50px;
 }
 .content{
     background: url(https://static1.squarespace.com/static/579e4df5b8a79bb7da5a70e1/t/57c7a05559cc68833fbee7f6/1472700675272/14138028_10207349694396373_5736626457680045716_o.jpg);
@@ -86,7 +98,7 @@ a.heart{
     position: relative;
     margin: auto;
 }
-.item img {
+.carousel-item img {
     min-width: 100%;
     max-height:450px;
     min-height: 450px;
@@ -133,7 +145,7 @@ h1.world_heading{
     padding:40px;
     margin-left: 15%;
 }
-.img-circle{
+.rounded-circle{
     height: 300px;
     min-width: 300px;
 }
@@ -149,16 +161,26 @@ h1.world_heading{
 }
 .button_down{
     position: relative;
-    margin: auto;
-    top: 50px;
     margin-top: 40px;
+
 }
-.world button{
+.button_down button{
     position: relative;
-    top: 30px;
-    padding: 5px 15px;
-    border: 1px solid black;
+    border-radius: 0;
+    border:1px solid black;
+    margin-top:40px;
+    margin-left: 400px;
+    padding: 10px;
 }
+.button_down button:hover{
+    background-color: black;
+    color:white;
+}
+.blog_footer{
+    position: relative;
+}
+
+
 footer{
     position: relative;
     margin-top: 100px;
@@ -179,7 +201,15 @@ button.submit{
     color: black;
 
 }
-.address-top-menu{list-style: none;
+.address-top-menu{
+    list-style: none;
+    padding:0;
+}
+.justify-content-center{
+    margin-top: 100px;
+}
+.hrline{
+
 }
 
 ul.navbar-nav li{display: inline;
