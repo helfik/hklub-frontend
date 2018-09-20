@@ -180,7 +180,6 @@ h1.world_heading{
     position: relative;
 }
 
-
 footer{
     position: relative;
     margin-top: 100px;
@@ -211,12 +210,18 @@ button.submit{
 .hrline{
 
 }
+.search_part{
+    margin-left: 270px;
 
-ul.navbar-nav li{display: inline;
 }
-.blog_form{
-    position: relative;
-
+a.active_blog_link:visited{
+    color: green;
+}
+.blog_links:visited{
+    color: black;
+}
+.blog_links:hover{
+    color: green;
 }
 .blog_card{
     position: relative;
@@ -291,7 +296,7 @@ span.test{
     background-color: white;
     margin: auto;
     width: 700px;
-    top: 100px;
+    margin-top: 80px;
 
 }
 .post{
@@ -365,7 +370,7 @@ span.test{
 .bottom_comment:hover{
     color:green;
 }
-.bottom_section_blog{
+.last_post{
     position: relative;
-    top:100px;
+    margin-top:40px;
 }

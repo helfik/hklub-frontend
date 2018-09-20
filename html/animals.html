@@ -1,64 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Blog</title>
+    <title>Solidarity</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" >
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
 
 </head>
 <body>
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-lg-12">
-            <nav class="nav navbar-default">
-                <div class="container">
-                    <div class="navbar-header">
-                        <a href="homepage.html" class="navbar-brand"> Main </a>
-                    </div>
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="blog.html">Blog</a></li>
-                        <li class="nav navbar_middle"><a href="#">About us</a></li>
-                        <li class="nav navbar_middle"><a href="#">Album Clients</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="nav navbar-right"><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-            <div class="content">
-                <div class="transbox">
-                    <h1 class="sitename"> Həmrəylik Klubu</h1>
-                    <h4> Güc birlikdədir</h4>
-                </div>
+<header class="homepage_top">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link " href="homepage.html">Main</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Album Clients</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacts</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
+</header>
+<div class="content">
+    <div class="transbox">
+        <h1 class="sitename"> Həmrəylik Klubu</h1>
+        <h4><i> Güc birlikdədir</i></h4>
+    </div>
 </div>
 <div class="container">
-    <div class="card1" style="width: 900px; border:none;">
-        <nav class="nav navbar-default">
-            <div class="container-fluid">
-                <ul class="nav navbar-nav">
-                    <li ><a href="blog.html">all posts</a></li>
-                    <li><a href="Secrets.html">secrets of mountains</a></li>
-                    <li><a href="birds.html">birds</a></li>
-                    <li class="active"><a href="animals.html">animals</a></li>
-                </ul>
-
-                <form class="navbar-form navbar-right blog_form" method="get" >
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search">
-                        <div class="input-group-btn">
-                            <button type="submit" class="btn" style="font-size: 14px; "><i class="fa fa-search"></i></button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </nav>
-
+    <div class="card1" style="width: 900px; border:none; background-color: white;">
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link  blog_links" href="blog.html">all posts</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link blog_links" href="Secrets.html">secrets of mountains</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link blog_links" href="birds.html">birds</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active_blog_link blog_links" href="animals.html">animals</a>
+            </li>
+            <form class="form-inline search_part">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" style="border: none;" type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </ul>
         <!--second part-->
 
         <div class="container blog_card">
@@ -76,7 +79,7 @@
                             <hr>
                             <small><i class="fa fa-eye" style="font-size:14px"></i></small><small><span>&nbsp;</span>4</small><span>&nbsp;</span>
                             <small> <a href="#" target="_top" class="commentblog" >Комментировать</a></small>
-                            <a href="#" class="heart"><i class="glyphicon glyphicon-heart-empty" style="color: red;"></i></a>
+                            <a href="#" class="heart"><i class="far fa-heart" style="color: red"></i></a>
                         </div>
                     </div>
                 </div>
@@ -94,7 +97,7 @@
                             <hr>
                             <small><i class="fa fa-eye" style="font-size:14px"></i></small><small><span>&nbsp;</span>4</small><span>&nbsp;</span>
                             <small> <a href="#" target="_top" class="commentblog" >Комментировать</a></small>
-                            <a href="#" class="heart"><i class="glyphicon glyphicon-heart-empty" style="color: red;"></i></a>
+                            <a href="#" class="heart"><i class="far fa-heart" style="color: red"></i></a>
                         </div>
                     </div>
                 </div>
@@ -114,7 +117,7 @@
                             <hr>
                             <small><i class="fa fa-eye" style="font-size:14px"></i></small><small><span>&nbsp;</span>4</small><span>&nbsp;</span>
                             <small> <a href="#" target="_top" class="commentblog" >Комментировать</a></small>
-                            <a href="#" class="heart"><i class="glyphicon glyphicon-heart-empty" style="color: red;"></i></a>
+                            <a href="#" class="heart"><i class="far fa-heart" style="color: red"></i></a>
                         </div>
                     </div>
                 </div>
@@ -124,38 +127,39 @@
     </div>
 </div>
 <!-- it must work -->
-<footer class="page-footer blog_footer">
-    <div class="container-fluid">
-        <hr class="footer">
-        <div class="row">
-            <div class="col-lg-6">
-                <form>
-                    <div class="form-inline">
-                        <label >Подпишитесь на рассылку </label>
-                        <br>
-                        <input type="email" class="form-control" placeholder="укажите ваш эл. почту" width="20px;">
-                        <button class="btn submit" type="button" >Подписаться</button>
-                    </div>
-                </form>
-            </div>
-            <div class="col-lg-6 side_part">
-                <ul class="address-top-menu">
-                    <li style="font-size: 30px;">
-                        <a href="https://vk.com/"><i class="fa fa-vk"></i></a>
-                        <a href="https://www.facebook.com/wix"><i class="fa fa-facebook"></i></a>
-                        <a href="https://twitter.com/wix"><i class="fa fa-twitter"></i></a>
-                        <a href="https://www.instagram.com/wix/"><i class="fa fa-instagram"></i></a>
-                        <a href="https://www.pinterest.com/wixcom/"><i class="fa fa-pinterest"></i></a>
-                    </li>
-                </ul>
-                <p>© 2023 «Человек с камерой».Сайт создан на <a href="">Wix.com</a></p>
+<div class="blog_footer">
+    <footer class="page-footer">
+        <hr>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <form>
+                        <div class="form-inline">
+                            <p> Подпишитесь на рассылку </p>
+                            <input type="email" class="form-control" placeholder="укажите ваш эл. почту" width="20px;">
+                            <button class="btn submit" type="button" >Подписаться</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-4 ">
+                    <ul class="address-top-menu">
+                        <li style="font-size: 20px;">
+                            <a href="https://vk.com/"><i class="fab fa-vk"></i></a>
+                            <a href="https://www.facebook.com/wix"><i class="fab fa-facebook"></i></a>
+                            <a href="https://twitter.com/wix"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/wix/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.pinterest.com/wixcom/"><i class="fab fa-pinterest"></i></a>
+                        </li>
+                    </ul>
+                    <p style=" font-size: 13px;">© 2023 «Человек с камерой».Сайт создан на <a style="color:black; text-decoration:none;" href="https://ru.wix.com/?utm_campaign=vir_created_with">Wix.com</a></p>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
+</div>
 
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </body>
 </html>
