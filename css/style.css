@@ -372,3 +372,38 @@ span.test{
     position: relative;
     margin-top:40px;
 }
+.contact_container {
+    position: relative;
+    margin: auto;
+}
+
+.contact_heading h3{
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 25px;
+}
+
+.contact_heading{
+    position: relative;
+    padding-top:60px;
+
+}
+.information_row{
+    position: relative;
+    font-size: 13px;
+    text-align: center;
+}
+.information_row_span{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding-left:8px;
+    padding-right:8px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.album_div{
+    position: relative;
+    margin-top: 40px;
+    text-align: center;
+
+}
