@@ -12,10 +12,7 @@
 </head>
 <body>
 <header class="homepage_top">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-12">
-                <ul class="nav justify-content-center">
+                   <ul class="nav justify-content-center">
                     <li class="nav-item">
                         <a class="nav-link " href="homepage.html">Main</a>
                     </li>
@@ -32,9 +29,6 @@
                         <a class="nav-link" href="contacts.html">Contacts</a>
                     </li>
                 </ul>
-            </div>
-        </div>
-    </div>
 </header>
 <div class="content">
     <div class="transbox">
@@ -43,7 +37,7 @@
     </div>
 </div>
 <div class="container">
-    <div class="card1" style="width: 900px; border:none; background-color: white;">
+    <div class="card1 blog_top">
         <ul class="nav">
             <li class="nav-item">
                 <a class="nav-link  blog_links" href="blog.html">all posts</a>
@@ -57,10 +51,12 @@
             <li class="nav-item">
                 <a class="nav-link blog_links" href="animals.html">animals</a>
             </li>
-            <form class="form-inline search_part">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" style="border: none;" type="submit"><i class="fa fa-search"></i></button>
-            </form>
+            <li>
+                <form class="form-inline search_part">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0 search_button" type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </li>
         </ul>
 
 
@@ -68,13 +64,13 @@
 
         <div class="first_container">
             <div class="first_container_header">
-                    <p> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzOm27sGxkaJur2OESDijcOYGwTcpSCXaoleA4p-HoG36jrYXy" height="40px;" width="40px;" style="border-radius: 100px;">
+                    <p> <img class="blog_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzOm27sGxkaJur2OESDijcOYGwTcpSCXaoleA4p-HoG36jrYXy">
                     <small>&nbsp;<a class="admin" href="#">Admin</a></small>
-                    <a href="#" style="color: black;"><span>&#x1F451;</span></a>
+                    <a  class="admin_img" href="#" ><span>&#x1F451;</span></a>
                     <small><span>&nbsp; янв &#x2027; 8 &#x2027;</span><span> &nbsp; 1мин. чтения</span></small> <span class="test"></span></p>
                     <h1>В погоне за ветром</h1>
                     <p><b>Создайте подзаголовок поста: одно-два предложения, которые кратко передают содержание поста и побуждают продолжить чтение.</b></p>
-                    <img src="https://static.wixstatic.com/media/3feb767012964567a364926dbcfee8ea.jpg/v1/fill/w_740,h_493,al_c,q_90,usm_0.66_1.00_0.01/3feb767012964567a364926dbcfee8ea.webp" style="width: 100%;">
+                    <img  class="post_img" src="https://static.wixstatic.com/media/3feb767012964567a364926dbcfee8ea.jpg/v1/fill/w_740,h_493,al_c,q_90,usm_0.66_1.00_0.01/3feb767012964567a364926dbcfee8ea.webp">
                 <div class="post">
                     <p>Это текст поста. Поделитесь с читателями и потенциальными клиентами интересной и полезной информацией по теме. Используйте посты как возможность постоянного общения с посетителями: делитесь новостями, советами и трендами.</p>
                 </div>
@@ -97,7 +93,7 @@
                     <p>Блог помогает посетителям увидеть личность, стоящую за бизнесом, и наделяет сайт голосом. Добавляйте в постам качественные фотографии или видео: они привлекают больше внимания к содержанию. Готовы начать? Создайте новый пост.</p>
                     <hr>
                <ul  class="blogcard_bottom_menu">
-                    <li style="font-size: 20px;">
+                    <li>
                         <a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a> &ensp;
                         <a class="twitter" href="#"><i class="fab fa-twitter"></i></a> &ensp;
                         <a class="google" href="#"><i class="fab fa-google-plus-g"></i></a>&ensp;
@@ -106,14 +102,14 @@
                 </ul>
                     <hr>
                     <small>Просмотров:4</small> <span>&nbsp;</span>
-                    <a href="#" class="heart"><i class="far fa-heart" style="color: red"></i></i></a>
+                    <a href="#" class="heart"><i class="far fa-heart"></i></a>
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row last_post">
                 <div class="col-lg-12"> <ul  class="blogcard_bottom_menu">
-                    <li style="font-size: 15px;">
+                    <li>
                         <p>Недавние посты
                             <a  class="secret_right" href="blog.html">Смотреть все</a></p></li>
                 </ul>
@@ -128,9 +124,9 @@
                     <a href="#" class="heading"><h6>Лесные трансформации</h6></a>
                        <hr>
 
-                    <small><i class="fa fa-eye" style="font-size:14px"></i></small><small><span>&nbsp;</span>4</small><span>&nbsp;</span>
+                    <small><i class="fa fa-eye"></i></small><small><span>&nbsp;</span>4</small><span>&nbsp;</span>
                     <small> <a href="#" target="_top" class="bottom_comment" >Комментировать</a></small>
-                    <a href="#" class="heart"><i class="far fa-heart" style="color: red"></i></a>
+                    <a href="#" class="heart"><i class="far fa-heart"></i></a>
                   </div>
              </div>
          </div>
@@ -142,9 +138,9 @@
               <a href="#" class="heading"><h6>Взгляд сверху</h6></a>
               <hr>
 
-               <small><i class="fa fa-eye" style="font-size:14px"></i></small><small><span>&nbsp;</span>4</small><span>&nbsp;</span>
+               <small><i class="fa fa-eye"></i></small><small><span>&nbsp;</span>4</small><span>&nbsp;</span>
                 <small> <a href="#" target="_top" class="bottom_comment" >Комментировать</a></small>
-                <a href="#" class="heart"><i class="far fa-heart" style="color: red"></i></a>
+                <a href="#" class="heart"><i class="far fa-heart"></i></a>
               </div>
              </div>
         </div>
@@ -158,9 +154,9 @@
                      <a href="#" class="heading"><h6>Летать так летать</h6></a>
                      <hr>
 
-                     <small><i class="fa fa-eye" style="font-size:14px"></i></small><small><span>&nbsp;</span>4</small><span>&nbsp;</span>
+                     <small><i class="fa fa-eye"></i></small><small><span>&nbsp;</span>4</small><span>&nbsp;</span>
                      <small> <a href="#" target="_top" class="bottom_comment" >Комментировать</a></small>
-                      <a href="#" class="heart"><i class="far fa-heart" style="color: red"></i></a>
+                      <a href="#" class="heart"><i class="far fa-heart"></i></a>
                  </div>
                 </div>
               </div>
@@ -168,14 +164,13 @@
 
                 <div class="row justify-content-center">
                     <div class="col-lg-4">
-                       <p style="font-size: 13px;">Чтобы комментировать,<a  class="active_blog_link " href="#" style="text-decoration: none;">войдите в аккаунт</a> </p>
+                       <p class="bottom_p">Чтобы комментировать,<a  class="active_blog_link" href="#">войдите в аккаунт</a> </p>
                     </div>
 
                 </div>
             </div>
         </div>
     </div>
-</div>
 
 <div class="blog_footer">
     <footer class="page-footer">
@@ -190,14 +185,14 @@
                     <form>
                         <div class="form-inline">
                             <p> Подпишитесь на рассылку </p>
-                            <input type="email" class="form-control" placeholder="укажите ваш эл. почту" width="20px;">
+                            <input type="email" class="form-control" placeholder="укажите ваш эл. почту">
                             <button class="btn submit" type="button" >Подписаться</button>
                         </div>
                     </form>
                 </div>
                 <div class="col-lg-4 ">
                     <ul class="address-top-menu">
-                        <li style="font-size: 20px;">
+                        <li>
                             <a href="https://vk.com/"><i class="fab fa-vk"></i></a>
                             <a href="https://www.facebook.com/wix"><i class="fab fa-facebook"></i></a>
                             <a href="https://twitter.com/wix"><i class="fab fa-twitter"></i></a>
@@ -205,7 +200,7 @@
                             <a href="https://www.pinterest.com/wixcom/"><i class="fab fa-pinterest"></i></a>
                         </li>
                     </ul>
-                    <p style=" font-size: 13px;">© 2023 «Человек с камерой».Сайт создан на <a style="color:black; text-decoration:none;" href="https://ru.wix.com/?utm_campaign=vir_created_with">Wix.com</a></p>
+                    <p>© 2023 «Человек с камерой».Сайт создан на <a class="admin_img" href="https://ru.wix.com/?utm_campaign=vir_created_with">Wix.com</a></p>
                 </div>
             </div>
         </div>

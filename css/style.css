@@ -1,6 +1,10 @@
 html {
     font-size: 15px;
 }
+html.body{
+    padding: 0;
+    margin: 0;
+}
 .homepage_top{
     background-color: mediumblue;
 
@@ -48,6 +52,8 @@ html {
     outline-color: white;
     outline-width: 20px;
     background-size: cover;
+    width: 900px;
+    background-color: white;
 }
 .img-full{
     min-width: 100%;
@@ -61,6 +67,22 @@ div.card-body:hover h2{color: green;
 }
 .admin-avatar{
     float: left;
+}
+.blog_img{
+    height:40px;
+    width:40px;
+    border-radius: 100px;
+}
+.admin_img:visited{
+    color: black;
+    text-decoration: none;
+}
+.admin_img:hover{
+    color: black;
+    text-decoration: none;
+}
+.fa-heart{
+    color: red;
 }
 .admin-container{
     float: right;
@@ -138,6 +160,7 @@ h1.carousel_header{
 .world{
     position: relative;
     margin: auto;
+    width: 950px;
 }
 h1.world_heading{
     font-size: 50px;
@@ -175,6 +198,11 @@ h1.world_heading{
     background-color: black;
     color:white;
 }
+.blog_top{ border: none;
+ }
+.search_button{
+    border: none;
+}
 .blog_footer{
     position: relative;
 }
@@ -202,6 +230,10 @@ button.submit{
 .address-top-menu{
     list-style: none;
     padding:0;
+    font-size: 20px;
+}
+.address-top-menu+p{
+     font-size: 13px;
 }
 div.justify-content-center{
     position: relative;
@@ -210,7 +242,6 @@ div.justify-content-center{
 
 .search_part{
     margin-left: 270px;
-
 }
 a.active_blog_link:visited{
     color: green;
@@ -236,6 +267,17 @@ a.active_blog_link:visited{
 div.cards{
     position: relative;
     padding-top: 30px;
+}
+.fa-eye{
+    font-size: 14px;
+}
+.stories{
+color: white;
+    text-decoration: none;
+}
+.stories:hover{
+color: white;
+text-decoration: none;
 }
 .imgcontainer{
     position: relative;
@@ -296,6 +338,9 @@ span.test{
     width: 700px;
     margin-top: 80px;
 
+}
+.post_img{
+    width: 100%;
 }
 .post{
     position: relative;
@@ -372,9 +417,13 @@ span.test{
     position: relative;
     margin-top:40px;
 }
+.bottom_p{
+    font-size: 13px;
+}
 .contact_container {
     position: relative;
     margin: auto;
+    width: 600px;
 }
 
 .contact_heading h3{
@@ -382,11 +431,19 @@ span.test{
     letter-spacing: 5px;
     font-size: 25px;
 }
+.contact_borders{
+    border:1px solid black;
+    border-radius:0;
+}
 
 .contact_heading{
     position: relative;
     padding-top:60px;
 
+}
+.contact_button{
+    border-radius: 0;
+    width: 80px;
 }
 .information_row{
     position: relative;
@@ -406,4 +463,9 @@ span.test{
     margin-top: 40px;
     text-align: center;
 
+}
+.about_img{
+    width: 300px;
+    height: 300px;
+    margin-top:40px;
 }
